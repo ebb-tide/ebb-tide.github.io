@@ -1,0 +1,44 @@
+@import url(uno.css);
+
+/* Modifications */
+
+pre.highlight,
+.highlight pre {
+  padding: 10px;
+}
+
+pre.highlight code,
+.highlight pre code {
+  white-space: pre-wrap;
+}
+
+.btn,
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.inner_link_item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.moo li {
+  display: inline-block;
+  position: relative;
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.user-image {
+  margin-bottom: 1.2em;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+  border-radius:100%;
+}
+
+.panel-cover__description a{
+  text-decoration: underline;
+}

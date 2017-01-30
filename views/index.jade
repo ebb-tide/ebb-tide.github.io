@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width initial-scale=1')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    link(rel='stylesheet', href='css/main.css')
+    title ebb-tide
+  body
+    span.mobile.btn-mobile-menu
+      i.icon.icon-list.btn-mobile-menu__icon
+      i.icon.icon-x-circle.btn-mobile-close__icon.hidden
+    header.panel-cover(style='background-image: url(sululuk.png)')
+      .panel-main
+        .panel-main__inner.panel-inverted
+          .panel-main__content
+            img.user-image(src='profile.jpg', alt='Photo')
+            .navigation-wrapper.moo
+              nav.cover-navigation.cover-navigation--primary
+                ul.navigation
+                  li.inner_link_item
+                    a.blog-button(href='/projects', title='Projects') Projects
+                  li.inner_link_item
+                    a.blog-button(href='/blog', title='Blog') Blog
+                  li.inner_link_item
+                    a.blog-button(href='/cv', title='CV') CV
+            hr.panel-cover__divider
+            p.panel-cover__description
+              | Hi, I'm Deniz.
+              br
+              | I'm a fullstack developer working in javascript and python.
+              br
+              | I love building tools that connect people.
+              br
+              | You can 
+              a(href='mailto:denizkusef@gmail.com', title='Email denizkusef@gmail.com', target='_blank') hire me!
+            hr.panel-cover__divider.panel-cover__divider--secondary
+            .navigation-wrapper
+              br
+              nav.cover-navigation.navigation--social
+                ul.navigation
+                  // GitHub
+                  li.navigation__item
+                    a(href='https://github.com/ebb-tide', title='ebb-tide on GitHub', target='_blank')
+                      i.icon.icon-social-github
+                      span.label GitHub
+                  // Facebook
+                  li.navigation__item
+                    a(href='https://www.facebook.com/deniz.kusefoglu', title='deniz on Facebook', target='_blank')
+                      i.icon.icon-social-facebook
+                      span.label Facebook
+                  // LinkedIn
+                  li.navigation__item
+                    a(href='https://www.linkedin.com/in/deniz-kusefoglu-ab032313', title='deniz on LinkedIn', target='_blank')
+                      i.icon.icon-social-linkedin
+                      span.label LinkedIn
+                  // Email
+                  li.navigation__item
+                    a(href='mailto:denizkusef@gmail.com', title='Email denizkusef@gmail.com', target='_blank')
+                      i.icon.icon-at-sign
+                      span.label Email
+        .panel-cover--overlay
