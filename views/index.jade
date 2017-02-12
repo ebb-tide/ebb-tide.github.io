@@ -16,15 +16,6 @@ html
         .panel-main__inner.panel-inverted
           .panel-main__content
             img.user-image(src='web/img/profile.jpg', alt='Photo')
-            .navigation-wrapper.moo
-              nav.cover-navigation.cover-navigation--primary
-                ul.navigation
-                  li.inner_link_item
-                    a.blog-button(href='/projects', title='Projects') Projects
-                  li.inner_link_item
-                    a.blog-button(href='/blog', title='Blog', target='_blank') Blog
-                  li.inner_link_item
-                    a.blog-button(href='/cv', title='CV') CV
             hr.panel-cover__divider
             p.panel-cover__description
               | Hi, I'm Deniz.
@@ -35,9 +26,15 @@ html
               br
               | You can 
               a(href='mailto:denizkusef@gmail.com', title='Email denizkusef@gmail.com', target='_blank') hire me!
-            hr.panel-cover__divider.panel-cover__divider--secondary
+            br
+            .navigation-wrapper.moo
+              nav.cover-navigation.cover-navigation--primary
+                ul.navigation
+                  li.inner_link_item
+                    a.blog-button(href='/projects', title='Projects') Projects
+                  li.inner_link_item
+                    a.blog-button(href='/resume', title='Resume') Resume
             .navigation-wrapper
-              br
               nav.cover-navigation.navigation--social
                 ul.navigation
                   // GitHub
@@ -47,17 +44,17 @@ html
                       span.label GitHub
                   // Facebook
                   li.navigation__item
-                    a(href='https://www.facebook.com/deniz.kusefoglu', title='deniz on Facebook', target='_blank')
+                    a(href='https://www.facebook.com/deniz.kusefoglu', title='Facebook', target='_blank')
                       i.icon.icon-social-facebook
                       span.label Facebook
                   // LinkedIn
                   li.navigation__item
-                    a(href='https://www.linkedin.com/in/deniz-kusefoglu-ab032313', title='deniz on LinkedIn', target='_blank')
+                    a(href='https://www.linkedin.com/in/deniz-kusefoglu-ab032313', title='LinkedIn', target='_blank')
                       i.icon.icon-social-linkedin
                       span.label LinkedIn
                   // Email
                   li.navigation__item
-                    a(href='mailto:denizkusef@gmail.com', title='Email denizkusef@gmail.com', target='_blank')
+                    a(href='mailto:denizkusef@gmail.com', title='E-mail', target='_blank')
                       i.icon.icon-at-sign
                       span.label Email
         .panel-cover--overlay

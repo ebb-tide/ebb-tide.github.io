@@ -12,12 +12,12 @@ pre.highlight code,
 
 .btn,
 .navigation__item a {
-  margin: 5px 0;
+  margin: 5px 5px;
   white-space: nowrap;
 }
 
 .inner_link_item a {
-  margin: 5px 0;
+  margin: 5px 5px;
   white-space: nowrap;
 }
 
