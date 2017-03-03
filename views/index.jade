@@ -4,15 +4,15 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width initial-scale=1')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    link(rel='stylesheet', href='web/css/main.css')
-    link(rel='stylesheet', href='web/css/uno.css')    
+    link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='/css/uno.css')    
     title ebb-tide
   body
-    header.panel-cover(style='background-image: url(web/img/sululuk1000.png)')
+    header.panel-cover(style='background-image: url(/img/sululuk1000.png)')
       .panel-main
         .panel-main__inner.panel-inverted
           .panel-main__content
-            img.user-image(src='web/img/profile.jpg', alt='Photo')
+            img.user-image(src='/img/profile.jpg', alt='Photo')
             hr.panel-cover__divider
             p.panel-cover__description
               | Hi, I'm Deniz.
@@ -30,7 +30,7 @@ html
                   li.inner_link_item
                     a.blog-button(href='/projects', title='Projects') Projects
                   li.inner_link_item
-                    a.blog-button(href='/resume', title='Resume') Resume
+                    a.blog-button(href='https://ebb-tide.github.io/resume/', title='Resume') Resume
             .navigation-wrapper
               nav.cover-navigation.navigation--social
                 ul.navigation
