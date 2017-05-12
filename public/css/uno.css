@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -897,7 +897,7 @@ body {
 		max-height: 100%; }
 
 	body {
-		font-family: "Raleway", sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-size: 1em;
 		color: #666666; }
 
@@ -926,7 +926,7 @@ body {
 		h5 {
 			margin-top: .8em;
 			margin-bottom: .4em;
-			font-family: "Roboto Slab", serif;
+			font-family: "Roboto", serif;
 			font-weight: lighter;
 			color: #333333;
 			-webkit-font-smoothing: antialiased; }
@@ -939,7 +939,7 @@ body {
 
 		p {
 			margin-bottom: 1.3em;
-			line-height: 1.7em; }
+			line-height: 1.4em; }
 
 		strong {
 			font-weight: bold; }
@@ -953,7 +953,7 @@ body {
 			background: #f8f8f8;
 			border: 1px solid #eeeeee;
 			border-radius: 3px;
-			font-family: "Roboto Slab", serif;
+			font-family: "Roboto", serif;
 			font-weight: lighter;
 			font-style: italic;
 			font-size: 1.3em;
@@ -1004,7 +1004,7 @@ body {
 			color: #999999; }
 
 		.intro {
-			font-family: "Roboto Slab", serif;
+			font-family: "Roboto", serif;
 			font-size: 1.2em;
 			font-weight: lighter;
 			color: #999999; }
@@ -1066,7 +1066,7 @@ body {
 			color: #FFF; }
 
 		.panel-subtitle {
-			font-family: "Roboto Slab", serif;
+			font-family: "Roboto", serif;
 			font-size: 1.2em;
 			font-weight: lighter;
 			letter-spacing: 3px;
@@ -1123,7 +1123,7 @@ body {
 			margin-bottom: .2em; }
 
 		.panel-cover__description {
-			margin: 0 30px; }
+			margin: 0px; }
 
 		.panel-cover__divider {
 			width: 100%;
