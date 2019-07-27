@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block; }
 
 body {
-	line-height: 1; }
+	line-height: 1.4; }
 
 ol, ul {
 	list-style: none; }
@@ -909,7 +909,7 @@ body {
 			background: #fae3df; }
 
 		a {
-			text-decoration: none;
+			text-decoration: underline;
 			color: #e25440; }
 			a:hover {
 				color: #b9301c;
@@ -1114,9 +1114,7 @@ body {
  			/*right: 400px;*/
  			bottom: 0;
  			/*left: 400px;*/
-			background-color: rgba(40, 40, 40, 0.6);
- 			/*background-image: -webkit-linear-gradient(-410deg, rgba(cc,cc,cc, 0.4) 20%, rgba(0, 0, 0, 0.9));*/
- 			/*background-image: linear-gradient(140deg,rgba(cc,cc,cc, 0.4) 20%, rgba(0, 0, 0, 0.9)); */
+			background-color: rgba(40, 40, 40, 0.7);
  		}
 
 		.panel-cover__logo {
